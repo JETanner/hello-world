@@ -1,0 +1,10 @@
+program FortranDeriv
+
+        !Fortran version of IDL Deriv function - uses 3 point lagrangian method - same as in IDL
+        implicit none
+        real :: X[10],Y[10],answer
+
+        answer = len(X)
+        write(*,*) answer
+
+end program FortranDeriv
